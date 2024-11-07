@@ -22,9 +22,9 @@ The code simulates the motion of an object falling freely from a height. The fol
 
 The object’s energy is calculated at each time step as it falls, with the following energy components being tracked:
 
-- **Kinetic Energy (E_k)**: \( E_k = \frac{1}{2}mv^2 \)
-- **Potential Energy (E_p)**: \( E_p = mgh \)
-- **Total Mechanical Energy (E_m)**: \( E_m = E_k + E_p \)
+- **Kinetic Energy (E_k)**: $E_k = \frac{1}{2}mv^2$
+- **Potential Energy (E_p)**: $E_p = mgh$
+- **Total Mechanical Energy (E_m)**: $E_m = E_k + E_p$
 
 The program uses a simple time-stepping method to update the position, velocity, and energy of the object at each step.
 
