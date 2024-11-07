@@ -2,13 +2,47 @@
 
 This repository contains a Python program that simulates the free fall of an object under the influence of gravity, while calculating and visualizing its kinetic, potential, and total mechanical energy over time. The goal of this simulation is to demonstrate the conservation of energy in a closed system.
 
-## Prerequisites
 
-Before running the code, ensure that you have the necessary libraries installed. You can install the required libraries using `pip`:
+## Development Environment Setup
 
-```bash
-pip install numpy matplotlib
-```
+The code was developed and executed in a Linux environment using Python. The following steps outline the setup process:
+
+1. **System Update**: Before starting, the system packages were updated using the following commands:
+    ```bash
+    sudo apt update
+    sudo apt upgrade
+    ```
+
+2. **Python Installation**: It was verified that Python was installed on the system by running:
+    ```bash
+    python3 --version
+    ```
+    If Python was not installed, it was installed with the following commands:
+    ```bash
+    sudo apt install python3
+    sudo apt install python3-pip
+    ```
+
+3. **Creating a Virtual Environment (venv)**: To isolate the project's dependencies, a virtual environment was created using:
+    ```bash
+    python3 -m venv venv
+    ```
+    Then, the environment was activated:
+    ```bash
+    source venv/bin/activate
+    ```
+
+4. **Installing Dependencies**: The necessary libraries, such as `numpy` and `matplotlib`, were installed using the following command:
+    ```bash
+    pip install numpy matplotlib pyqt5
+    ```
+
+5. **Running the Code**: To execute the code, the script was compiled and run in the Linux terminal:
+    ```bash
+    python3 main.py
+    ```
+
+
 
 ## Code Overview
 
